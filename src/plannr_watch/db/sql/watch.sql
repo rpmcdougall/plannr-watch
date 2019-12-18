@@ -1,6 +1,6 @@
--- :name events
+-- :name events-name-time
 -- :command :query
 -- :result n
 -- :doc select all events
-SELECT *
+SELECT event_name, event_time
 FROM plannr_event
